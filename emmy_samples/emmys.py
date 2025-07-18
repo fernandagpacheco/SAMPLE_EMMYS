@@ -1,3 +1,5 @@
+from emmy_samples.review import Review
+
 class Nominees:
     nominations = []
 
@@ -5,6 +7,7 @@ class Nominees:
         self._title = title.upper()
         self._category = category.title()
         self._active = False
+        self._rate = []
         Nominees.nominations.append(self)
 
     def __string__(self):
@@ -23,8 +26,8 @@ class Nominees:
     def change_status(self):
         self._active = not self._active
 
-nominee_andor = Nominees("Andor", "Drama")
-nominee_andor.change_status()
-nominee_severance = Nominees ("Severance", "Drama")
+    def get_review(self, critic, score):
+        rate = Review(critic, score)
+        self._rate.append(rate)
 
-Nominees.list_nominations()
+
