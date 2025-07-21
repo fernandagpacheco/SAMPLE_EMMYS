@@ -6,7 +6,7 @@ nominee_thepitt = Nominees("The Pitt", "Drama")
 
 
 nominee_severance.get_review("Fe",10)
-nominee_severance.get_review("Mike", 8)
+nominee_severance.get_review("Mike", 8.5)
 nominee_severance.change_status()
 
 def main():
