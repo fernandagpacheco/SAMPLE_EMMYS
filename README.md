@@ -11,12 +11,12 @@ This is a Python project I built while taking the **"Python: Applying Object-Ori
 - Prints a full list with status, ratings and categories. 
 
 📁 Project Structure
-SAMPLE_EMMYS/
-├── emmy_samples/
-|    ├── emmys.py
-|    ├── review.py
-|    ├── app.py
-└── README.md
+SAMPLE_EMMYS/  
+├── emmy_samples/  
+|    ├── emmys.py  
+|    ├── review.py  
+|    ├── app.py  
+└── README.md  
 
 🌞 Author
 '<FGP>();' 
