@@ -13,10 +13,10 @@ This is a Python project I built while taking the **"Python: Applying Object-Ori
 📁 Project Structure
 SAMPLE_EMMYS/  
 ├── emmy_samples/  
-|    ├── emmys.py  
-|    ├── review.py  
-|    ├── app.py  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── emmys.py  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── review.py  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── app.py  
 └── README.md  
 
 🌞 Author
-'<FGP>();' 
+`<FGP>(); ` 
